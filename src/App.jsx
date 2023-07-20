@@ -1,4 +1,5 @@
 import Contact from './components/contact.jsx'
+import SignUp from './components/signup.jsx'
 import Header from './components/header.jsx'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
      <div>
       <Header />
-        <Contact />
+      <SignUp />
+      <Contact />
      </div>
     </>
   )
